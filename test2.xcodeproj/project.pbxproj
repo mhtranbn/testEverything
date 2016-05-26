@@ -17,6 +17,7 @@
 		327E858E1CF679A900A3FBE0 /* CurrentOrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327E858D1CF679A900A3FBE0 /* CurrentOrderVC.swift */; };
 		327E85931CF67A4500A3FBE0 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327E85921CF67A4500A3FBE0 /* MaterialButton.swift */; };
 		327E85951CF67A7900A3FBE0 /* MyOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327E85941CF67A7900A3FBE0 /* MyOrderCell.swift */; };
+		32FA184C1CF68E5100AD8C92 /* Ellipse 1 copy 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 32FA184B1CF68E5100AD8C92 /* Ellipse 1 copy 2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		327E858D1CF679A900A3FBE0 /* CurrentOrderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentOrderVC.swift; sourceTree = "<group>"; };
 		327E85921CF67A4500A3FBE0 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
 		327E85941CF67A7900A3FBE0 /* MyOrderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyOrderCell.swift; sourceTree = "<group>"; };
+		32FA184B1CF68E5100AD8C92 /* Ellipse 1 copy 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ellipse 1 copy 2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				327E858D1CF679A900A3FBE0 /* CurrentOrderVC.swift */,
 				327E85941CF67A7900A3FBE0 /* MyOrderCell.swift */,
 				327E85921CF67A4500A3FBE0 /* MaterialButton.swift */,
+				32FA184B1CF68E5100AD8C92 /* Ellipse 1 copy 2.png */,
 				327E85641CF66B2A00A3FBE0 /* Assets.xcassets */,
 				327E85661CF66B2A00A3FBE0 /* LaunchScreen.storyboard */,
 				327E85691CF66B2A00A3FBE0 /* Info.plist */,
@@ -241,6 +244,7 @@
 				327E85681CF66B2A00A3FBE0 /* LaunchScreen.storyboard in Resources */,
 				327E85651CF66B2A00A3FBE0 /* Assets.xcassets in Resources */,
 				327E85631CF66B2A00A3FBE0 /* Main.storyboard in Resources */,
+				32FA184C1CF68E5100AD8C92 /* Ellipse 1 copy 2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

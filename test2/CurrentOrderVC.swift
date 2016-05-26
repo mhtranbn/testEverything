@@ -59,23 +59,21 @@ class CurrentOrderVC: UIViewController, UITableViewDataSource, UITableViewDelega
 //        let data = dataSourceCurrentOrder[a]
         
         
-        var cell: MyOrderCell? = tableView.dequeueReusableCellWithIdentifier(cellIdentifier) as? MyOrderCell
-        if cell == nil {
-            cell = MyOrderCell(style: UITableViewCellStyle.Value1, reuseIdentifier: cellIdentifier)
-        }
+        let cell: UITableViewCell = (tableView.dequeueReusableCellWithIdentifier(cellIdentifier))!
+
 //        LazyImage.showForImageView((cell?.imageItems)!, url: data.linkImage)
-        
+        cell.textLabel?.text = "Fuck that"
 //        cell?.name.text = "cascasc"
-        cell!.price.text = "cascsacascsac"
+//        cell!.price.text = "cascsacascsac"
 //        if (data.status ==
 //            "new") {
 //            cell!.status.text = "Waiting to cooking ..."
 //        } else {
 //            cell?.status.text = "Cooking..."
 //        }
-        print("cell?.name.text = \(cell?.name.text)")
+//        print("cell?.name.text = \(cell?.name.text)")
         
-        return cell!
+        return cell
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
