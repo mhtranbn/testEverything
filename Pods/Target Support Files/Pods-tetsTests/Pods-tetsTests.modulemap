@@ -1,0 +1,6 @@
+framework module Pods_tetsTests {
+  umbrella header "Pods-tetsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

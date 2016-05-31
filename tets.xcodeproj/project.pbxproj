@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32BFCCBB1CFD80A900469118 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BFCCBA1CFD80A900469118 /* AppDelegate.swift */; };
+		32BFCCBD1CFD80A900469118 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BFCCBC1CFD80A900469118 /* ViewController.swift */; };
+		32BFCCC01CFD80A900469118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32BFCCBE1CFD80A900469118 /* Main.storyboard */; };
+		32BFCCC21CFD80A900469118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32BFCCC11CFD80A900469118 /* Assets.xcassets */; };
+		32BFCCC51CFD80A900469118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32BFCCC31CFD80A900469118 /* LaunchScreen.storyboard */; };
+		32BFCCD01CFD80A900469118 /* tetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BFCCCF1CFD80A900469118 /* tetsTests.swift */; };
+		32BFCCDB1CFD80A900469118 /* tetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BFCCDA1CFD80A900469118 /* tetsUITests.swift */; };
+		32BFCCE91CFD85E800469118 /* download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BFCCE81CFD85E800469118 /* download.swift */; };
+		7778B000876F739E0856697E /* Pods_tetsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AB498272B1AB36AD5719F4 /* Pods_tetsUITests.framework */; };
+		CA2F3227A9445F3A9080EF0B /* Pods_tets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF954726F3D407339207E82 /* Pods_tets.framework */; };
+		F2F60550063A56423D7F5248 /* Pods_tetsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35BACBA4FE3770C137A09C8 /* Pods_tetsTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32BFCCCC1CFD80A900469118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32BFCCAF1CFD80A900469118 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32BFCCB61CFD80A900469118;
+			remoteInfo = tets;
+		};
+		32BFCCD71CFD80A900469118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32BFCCAF1CFD80A900469118 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32BFCCB61CFD80A900469118;
+			remoteInfo = tets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CF954726F3D407339207E82 /* Pods_tets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17A188014DC947B34B847399 /* Pods-tetsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tetsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tetsUITests/Pods-tetsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		30F34A371C27B83B5D3A4B0A /* Pods-tets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tets.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tets/Pods-tets.debug.xcconfig"; sourceTree = "<group>"; };
+		32BFCCB71CFD80A900469118 /* tets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BFCCBA1CFD80A900469118 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32BFCCBC1CFD80A900469118 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32BFCCBF1CFD80A900469118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32BFCCC11CFD80A900469118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32BFCCC41CFD80A900469118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32BFCCC61CFD80A900469118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32BFCCCB1CFD80A900469118 /* tetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BFCCCF1CFD80A900469118 /* tetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tetsTests.swift; sourceTree = "<group>"; };
+		32BFCCD11CFD80A900469118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32BFCCD61CFD80A900469118 /* tetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BFCCDA1CFD80A900469118 /* tetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tetsUITests.swift; sourceTree = "<group>"; };
+		32BFCCDC1CFD80A900469118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32BFCCE81CFD85E800469118 /* download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = download.swift; sourceTree = "<group>"; };
+		35AB498272B1AB36AD5719F4 /* Pods_tetsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tetsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EAC51408006E4C4C541B1BB /* Pods-tetsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tetsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tetsUITests/Pods-tetsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BFBA4BD3A1B8F635168F90B9 /* Pods-tets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tets.release.xcconfig"; path = "Pods/Target Support Files/Pods-tets/Pods-tets.release.xcconfig"; sourceTree = "<group>"; };
+		C35BACBA4FE3770C137A09C8 /* Pods_tetsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tetsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C75961482C99C61FFE6F79 /* Pods-tetsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tetsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tetsTests/Pods-tetsTests.release.xcconfig"; sourceTree = "<group>"; };
+		F30FA0F3080FF4194BE0320B /* Pods-tetsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tetsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tetsTests/Pods-tetsTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32BFCCB41CFD80A900469118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA2F3227A9445F3A9080EF0B /* Pods_tets.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BFCCC81CFD80A900469118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2F60550063A56423D7F5248 /* Pods_tetsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BFCCD31CFD80A900469118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7778B000876F739E0856697E /* Pods_tetsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32BFCCAE1CFD80A900469118 = {
+			isa = PBXGroup;
+			children = (
+				32BFCCB91CFD80A900469118 /* tets */,
+				32BFCCCE1CFD80A900469118 /* tetsTests */,
+				32BFCCD91CFD80A900469118 /* tetsUITests */,
+				32BFCCB81CFD80A900469118 /* Products */,
+				B95B500DFC11D8313848E6A1 /* Pods */,
+				E7BA042966AAA1D4D40CF85A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		32BFCCB81CFD80A900469118 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32BFCCB71CFD80A900469118 /* tets.app */,
+				32BFCCCB1CFD80A900469118 /* tetsTests.xctest */,
+				32BFCCD61CFD80A900469118 /* tetsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32BFCCB91CFD80A900469118 /* tets */ = {
+			isa = PBXGroup;
+			children = (
+				32BFCCBA1CFD80A900469118 /* AppDelegate.swift */,
+				32BFCCBC1CFD80A900469118 /* ViewController.swift */,
+				32BFCCBE1CFD80A900469118 /* Main.storyboard */,
+				32BFCCC11CFD80A900469118 /* Assets.xcassets */,
+				32BFCCC31CFD80A900469118 /* LaunchScreen.storyboard */,
+				32BFCCC61CFD80A900469118 /* Info.plist */,
+				32BFCCE81CFD85E800469118 /* download.swift */,
+			);
+			path = tets;
+			sourceTree = "<group>";
+		};
+		32BFCCCE1CFD80A900469118 /* tetsTests */ = {
+			isa = PBXGroup;
+			children = (
+				32BFCCCF1CFD80A900469118 /* tetsTests.swift */,
+				32BFCCD11CFD80A900469118 /* Info.plist */,
+			);
+			path = tetsTests;
+			sourceTree = "<group>";
+		};
+		32BFCCD91CFD80A900469118 /* tetsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32BFCCDA1CFD80A900469118 /* tetsUITests.swift */,
+				32BFCCDC1CFD80A900469118 /* Info.plist */,
+			);
+			path = tetsUITests;
+			sourceTree = "<group>";
+		};
+		B95B500DFC11D8313848E6A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30F34A371C27B83B5D3A4B0A /* Pods-tets.debug.xcconfig */,
+				BFBA4BD3A1B8F635168F90B9 /* Pods-tets.release.xcconfig */,
+				F30FA0F3080FF4194BE0320B /* Pods-tetsTests.debug.xcconfig */,
+				D5C75961482C99C61FFE6F79 /* Pods-tetsTests.release.xcconfig */,
+				4EAC51408006E4C4C541B1BB /* Pods-tetsUITests.debug.xcconfig */,
+				17A188014DC947B34B847399 /* Pods-tetsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E7BA042966AAA1D4D40CF85A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CF954726F3D407339207E82 /* Pods_tets.framework */,
+				C35BACBA4FE3770C137A09C8 /* Pods_tetsTests.framework */,
+				35AB498272B1AB36AD5719F4 /* Pods_tetsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32BFCCB61CFD80A900469118 /* tets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BFCCDF1CFD80A900469118 /* Build configuration list for PBXNativeTarget "tets" */;
+			buildPhases = (
+				E45B7CFDF05BA02DBD5E38CE /* 📦 Check Pods Manifest.lock */,
+				32BFCCB31CFD80A900469118 /* Sources */,
+				32BFCCB41CFD80A900469118 /* Frameworks */,
+				32BFCCB51CFD80A900469118 /* Resources */,
+				8A6D553FB473C2A9E3B91935 /* 📦 Embed Pods Frameworks */,
+				0E4BDEDCDABC78B34A33E7C8 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tets;
+			productName = tets;
+			productReference = 32BFCCB71CFD80A900469118 /* tets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32BFCCCA1CFD80A900469118 /* tetsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BFCCE21CFD80A900469118 /* Build configuration list for PBXNativeTarget "tetsTests" */;
+			buildPhases = (
+				82FE80395C6FD24D080AAB61 /* 📦 Check Pods Manifest.lock */,
+				32BFCCC71CFD80A900469118 /* Sources */,
+				32BFCCC81CFD80A900469118 /* Frameworks */,
+				32BFCCC91CFD80A900469118 /* Resources */,
+				6F696443108DD8D05CC697B0 /* 📦 Embed Pods Frameworks */,
+				679161F531756516ECBA5A93 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32BFCCCD1CFD80A900469118 /* PBXTargetDependency */,
+			);
+			name = tetsTests;
+			productName = tetsTests;
+			productReference = 32BFCCCB1CFD80A900469118 /* tetsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32BFCCD51CFD80A900469118 /* tetsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BFCCE51CFD80A900469118 /* Build configuration list for PBXNativeTarget "tetsUITests" */;
+			buildPhases = (
+				D3BF099649C7910191B90329 /* 📦 Check Pods Manifest.lock */,
+				32BFCCD21CFD80A900469118 /* Sources */,
+				32BFCCD31CFD80A900469118 /* Frameworks */,
+				32BFCCD41CFD80A900469118 /* Resources */,
+				4E2572565F103B4410251784 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32BFCCD81CFD80A900469118 /* PBXTargetDependency */,
+			);
+			name = tetsUITests;
+			productName = tetsUITests;
+			productReference = 32BFCCD61CFD80A900469118 /* tetsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32BFCCAF1CFD80A900469118 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mhtran;
+				TargetAttributes = {
+					32BFCCB61CFD80A900469118 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					32BFCCCA1CFD80A900469118 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 32BFCCB61CFD80A900469118;
+					};
+					32BFCCD51CFD80A900469118 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 32BFCCB61CFD80A900469118;
+					};
+				};
+			};
+			buildConfigurationList = 32BFCCB21CFD80A900469118 /* Build configuration list for PBXProject "tets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32BFCCAE1CFD80A900469118;
+			productRefGroup = 32BFCCB81CFD80A900469118 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32BFCCB61CFD80A900469118 /* tets */,
+				32BFCCCA1CFD80A900469118 /* tetsTests */,
+				32BFCCD51CFD80A900469118 /* tetsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32BFCCB51CFD80A900469118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BFCCC51CFD80A900469118 /* LaunchScreen.storyboard in Resources */,
+				32BFCCC21CFD80A900469118 /* Assets.xcassets in Resources */,
+				32BFCCC01CFD80A900469118 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BFCCC91CFD80A900469118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BFCCD41CFD80A900469118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E4BDEDCDABC78B34A33E7C8 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tets/Pods-tets-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E2572565F103B4410251784 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tetsUITests/Pods-tetsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		679161F531756516ECBA5A93 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tetsTests/Pods-tetsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F696443108DD8D05CC697B0 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tetsTests/Pods-tetsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82FE80395C6FD24D080AAB61 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8A6D553FB473C2A9E3B91935 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tets/Pods-tets-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3BF099649C7910191B90329 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E45B7CFDF05BA02DBD5E38CE /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32BFCCB31CFD80A900469118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BFCCBD1CFD80A900469118 /* ViewController.swift in Sources */,
+				32BFCCBB1CFD80A900469118 /* AppDelegate.swift in Sources */,
+				32BFCCE91CFD85E800469118 /* download.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BFCCC71CFD80A900469118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BFCCD01CFD80A900469118 /* tetsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BFCCD21CFD80A900469118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BFCCDB1CFD80A900469118 /* tetsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32BFCCCD1CFD80A900469118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32BFCCB61CFD80A900469118 /* tets */;
+			targetProxy = 32BFCCCC1CFD80A900469118 /* PBXContainerItemProxy */;
+		};
+		32BFCCD81CFD80A900469118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32BFCCB61CFD80A900469118 /* tets */;
+			targetProxy = 32BFCCD71CFD80A900469118 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32BFCCBE1CFD80A900469118 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32BFCCBF1CFD80A900469118 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32BFCCC31CFD80A900469118 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32BFCCC41CFD80A900469118 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32BFCCDD1CFD80A900469118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32BFCCDE1CFD80A900469118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32BFCCE01CFD80A900469118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30F34A371C27B83B5D3A4B0A /* Pods-tets.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.hoangmanhtran.com.tets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32BFCCE11CFD80A900469118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFBA4BD3A1B8F635168F90B9 /* Pods-tets.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.hoangmanhtran.com.tets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		32BFCCE31CFD80A900469118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F30FA0F3080FF4194BE0320B /* Pods-tetsTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tetsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.hoangmanhtran.com.tetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tets.app/tets";
+			};
+			name = Debug;
+		};
+		32BFCCE41CFD80A900469118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5C75961482C99C61FFE6F79 /* Pods-tetsTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tetsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.hoangmanhtran.com.tetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tets.app/tets";
+			};
+			name = Release;
+		};
+		32BFCCE61CFD80A900469118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EAC51408006E4C4C541B1BB /* Pods-tetsUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = tetsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.hoangmanhtran.com.tetsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tets;
+			};
+			name = Debug;
+		};
+		32BFCCE71CFD80A900469118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17A188014DC947B34B847399 /* Pods-tetsUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = tetsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.hoangmanhtran.com.tetsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tets;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32BFCCB21CFD80A900469118 /* Build configuration list for PBXProject "tets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BFCCDD1CFD80A900469118 /* Debug */,
+				32BFCCDE1CFD80A900469118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32BFCCDF1CFD80A900469118 /* Build configuration list for PBXNativeTarget "tets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BFCCE01CFD80A900469118 /* Debug */,
+				32BFCCE11CFD80A900469118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32BFCCE21CFD80A900469118 /* Build configuration list for PBXNativeTarget "tetsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BFCCE31CFD80A900469118 /* Debug */,
+				32BFCCE41CFD80A900469118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32BFCCE51CFD80A900469118 /* Build configuration list for PBXNativeTarget "tetsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BFCCE61CFD80A900469118 /* Debug */,
+				32BFCCE71CFD80A900469118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32BFCCAF1CFD80A900469118 /* Project object */;
+}
